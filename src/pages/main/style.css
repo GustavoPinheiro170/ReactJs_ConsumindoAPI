@@ -1,0 +1,33 @@
+.product-list{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.product-list article {
+    background: white;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.product-list .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: red;
+    color: white;
+    cursor: pointer;
+
+}
+
+.actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
